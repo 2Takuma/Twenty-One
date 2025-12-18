@@ -49,17 +49,7 @@ int main () {
     Card myDeck[dkSize];
 
     crtDeck(myDeck);
-
     
-    /*for (int i = 0; i < dkSize; i ++) {
-        if ((i != 0) && (i % 13 == 0)) {
-            std::cout << std::endl;
-        }
-        myDeck[i].display();
-    }*/
-    
-
-    /*
     std::cout << "Welcome to Twenty-One!" << std::endl;
     menu();
     while(std::cin >> in) {
@@ -73,7 +63,7 @@ int main () {
         }
         else {std::cout << "Quitting."; return 0;}
     }
-    */
+    sleep(3);
 
     // Game Start
     bool end = false;
@@ -112,8 +102,8 @@ int main () {
                 break;
             }
             else if (in == 'P' || in == 'p') {
-                //split function
-                std::cout << "You decided to split." << std::endl;
+                std::cout << "Function has not been implemented yet." << std::endl;
+                //std::cout << "You decided to split." << std::endl;
             }
             else {
                 std::cout << "Invalid input." << std::endl;
