@@ -1,4 +1,4 @@
-# Welcone to Twenty-One (BlackJack)
+# Welcone to Twenty-One (Terminal BlackJack)
 ## This program is a simulation of Black Jack where it tells you your safety percentage of hitting/dealing a card.
 
 
@@ -7,7 +7,8 @@
 
 ## Instructions:
   1. Download the "Game Folder"
-  2. Run 
+  2. Run "TwentyOne.cpp" in your IDE
+  3. Have fun!
   
   
 ## Controls: 
@@ -25,3 +26,4 @@ The "split" function has not been implemented yet as the game is in a Work Of Pr
 
 ***
 This project was published on 12/17/2025
+
